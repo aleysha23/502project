@@ -46,47 +46,66 @@ To prevent data leakage, earlier grades (G1 and G2) were excluded from the featu
 
 # Repository Structure
 
+## Repository Structure
+
+```
 502project/
 │
 ├── 502project.ipynb   # Main project notebook
 ├── student-mat.csv    # Dataset
 └── README.md          # Project documentation
+```
 
 ---
+## Installation
 
-# Installation
+### 1. Clone the repository
 
-Clone the repository:
 git clone https://github.com/aleysha23/502project.git
 
 cd 502project
 
-Create Virtual Environment
 
-Using Python 3.12: 
+---
+
+### 2. Create a virtual environment (recommended)
+
+Using Python 3.12:
 python3.12 -m venv venv
 
-Activate the virtual environment: 
+Activate the virtual environment:
 
-macOS/Linux
+**macOS / Linux**
 source venv/bin/activate
 
-Windows
+**Windows**
 venv\Scripts\activate
 
-Install required dependencies
+---
+
+### 3. Install required dependencies
 pip install pandas numpy scikit-learn matplotlib seaborn
 
-Running the Notebook
+---
 
-Option 1- Run in Google Colab
-1. Open 502project.ipynb
-2. Upload dataset student-mat.csv
+## Running the Notebook
+
+### Option 1 — Run in Google Colab
+
+1. Open `502project.ipynb`
+2. Upload the dataset `student-mat.csv`
 3. Run all cells from top to bottom
 
-Option 2- Run locally 
+---
+
+### Option 2 — Run locally
+
 Start Jupyter:
 jupyter notebook
+
 Then open:
 502project.ipynb
-and run all cells
+
+and run all cells.
+
+
